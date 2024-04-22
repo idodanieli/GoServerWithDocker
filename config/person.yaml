@@ -1,0 +1,15 @@
+name: Ido Danieli
+age: 22
+gender: male
+address: Yotam 17, Herzliya
+
+friends:
+  - Eli Vakrat
+  - Adam Klein
+  - Itamar Choshen
+
+family:
+  girlfriend:
+    name: Liel Sabag
+    age: 22
+    address: Rimon 5, Karmei Yosef
