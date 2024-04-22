@@ -1,15 +1,15 @@
-name: Ido Danieli
+name: Ido
 age: 22
 gender: male
-address: Yotam 17, Herzliya
+address: The Moon
 
 friends:
-  - Eli Vakrat
-  - Adam Klein
-  - Itamar Choshen
+  - "Friend #1"
+  - "Friend #2"
+  - "Friend #3"
 
 family:
   girlfriend:
-    name: Liel Sabag
+    name: Liel
     age: 22
-    address: Rimon 5, Karmei Yosef
+    address: Mars
