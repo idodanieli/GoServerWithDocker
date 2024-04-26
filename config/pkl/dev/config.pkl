@@ -1,0 +1,7 @@
+amends "../AppConfig.pkl"
+
+import "dev_redis.pkl"
+
+host = "localhost"
+port = 90
+redis = dev_redis

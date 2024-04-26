@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c11c1c83-d4da-46e1-9432-62ffe2dd11b0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/HelloWorld.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/pkl/RedisConfig.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/pkl/dev/config.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/pkl/dev/dev_redis.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/main.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/main.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serving/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/serving/config.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +26,7 @@
       <list>
         <option value="Go File" />
         <option value="Dockerfile" />
+        <option value="Pkl File" />
       </list>
     </option>
   </component>
@@ -46,16 +54,18 @@
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
     "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "last_opened_file_path": "C:/Users/Ido",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.pkl.intellij.settings.PklSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ido\GolandProjects\HelloWorld\config" />
       <recent name="C:\Users\Ido\GolandProjects\HelloWorld\src" />
       <recent name="C:\Users\Ido\GolandProjects\HelloWorld\main" />
     </key>
@@ -83,11 +93,11 @@
             <list>
               <DockerEnvVarImpl>
                 <option name="name" value="FAMILY_GIRLFRIEND_NAME" />
-                <option name="value" value="Ronit" />
+                <option name="value" value="Noa" />
               </DockerEnvVarImpl>
               <DockerEnvVarImpl>
                 <option name="name" value="NAME" />
-                <option name="value" value="Yoav" />
+                <option name="value" value="Eli" />
               </DockerEnvVarImpl>
             </list>
           </option>

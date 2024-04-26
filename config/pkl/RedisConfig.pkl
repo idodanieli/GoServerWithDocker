@@ -1,0 +1,3 @@
+module RedisConfig
+
+address: String

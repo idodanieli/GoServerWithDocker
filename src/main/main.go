@@ -1,9 +1,11 @@
 package main
 
 import (
+	"HelloWorld/src/gen/serverconfig"
 	"HelloWorld/src/person"
-	"HelloWorld/src/serving"
+	"context"
 	"fmt"
+	"github.com/apple/pkl-go/pkl"
 	"github.com/spf13/viper"
 	"log"
 	"net/http"
@@ -11,8 +13,24 @@ import (
 )
 
 func main() {
+	readConfigUsingPkl()
 	homeScreen := fetchPersonInfo()
 	runServer(homeScreen)
+}
+
+func readConfigUsingPkl() {
+	evaluator, err := pkl.NewEvaluator(context.Background(), pkl.PreconfiguredOptions)
+	if err != nil {
+		panic(err)
+	}
+	defer evaluator.Close()
+
+	cfg, err := serverconfig.LoadFromPath(context.Background(), "./config/pkl/dev/config.pkl")
+	if err != nil {
+		panic(err)
+	}
+
+	fmt.Println(cfg)
 }
 
 func fetchPersonInfo() string {
@@ -35,7 +53,7 @@ func runServer(homeScreen string) {
 		log.Fatalf("failed initializing viper: %v", err)
 	}
 
-	var serverConfig serving.ServerConfig
+	var serverConfig serverconfig.ServerConfig
 	if err := v.Unmarshal(&serverConfig); err != nil {
 		log.Fatalf("failed unmarshalling server config: %v", err)
 	}

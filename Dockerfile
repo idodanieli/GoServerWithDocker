@@ -31,5 +31,12 @@ COPY config/ ./config
 # Expose port 90 to the outside world
 EXPOSE 90
 
+# Install pkl
+RUN apk update
+RUN apk add curl
+RUN curl -L -o pkl https://github.com/apple/pkl/releases/download/0.25.3/pkl-alpine-linux-amd64
+RUN chmod +x pkl
+RUN mv pkl /bin/
+
 # Command to run the executable
 ENTRYPOINT  ["/app/idos_server"]

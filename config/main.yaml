@@ -3,8 +3,3 @@ hostname: localhost
 
 redis:
   address: 1.1.1.1
-
-paths:
-  - "/home/ido/file1"
-  - "/home/ido/file2"
-  - "/home/ido/file3"
