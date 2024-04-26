@@ -39,12 +39,14 @@ func fetchPersonInfo() string {
 		log.Fatalf("could not create viper: %v", err)
 	}
 
+	v.SetEnvPrefix("PERSON")
+
 	var p person.Person
 	if err := v.Unmarshal(&p); err != nil {
 		log.Fatalf("could not unmarshal person: %v", err)
 	}
 
-	return fmt.Sprintf("%v's girlfriend is %v\n\nThis is the new version", p.Name, p.Family.Girlfriend.Name)
+	return fmt.Sprintf("%v's girlfriend is %v\n\nThis is version 2", p.Name, p.Family.Girlfriend.Name)
 }
 
 func runServer(homeScreen string) {
