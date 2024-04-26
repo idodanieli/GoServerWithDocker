@@ -1,0 +1,5 @@
+module Redis
+
+class Config {
+  address: String
+}

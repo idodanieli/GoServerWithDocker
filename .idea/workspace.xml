@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c11c1c83-d4da-46e1-9432-62ffe2dd11b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/config/pkl/RedisConfig.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/pkl/dev/config.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/pkl/dev/dev_redis.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/main.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/main.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serving/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/serving/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/pkl/RedisConfig.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/config/pkl/RedisConfig.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/pkl/dev/config.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/config/pkl/dev/config.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/pkl/dev/dev_redis.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/config/pkl/dev/dev_redis.pkl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +18,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go File" />
         <option value="Dockerfile" />
         <option value="Pkl File" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
@@ -65,6 +59,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ido\GolandProjects\HelloWorld\src\gen\serverconfig" />
       <recent name="C:\Users\Ido\GolandProjects\HelloWorld\config" />
       <recent name="C:\Users\Ido\GolandProjects\HelloWorld\src" />
       <recent name="C:\Users\Ido\GolandProjects\HelloWorld\main" />

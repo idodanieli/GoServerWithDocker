@@ -1,7 +1,8 @@
 amends "../AppConfig.pkl"
-
-import "dev_redis.pkl"
+import "../Redis.pkl"
 
 host = "localhost"
-port = 90
-redis = dev_redis
+port = read?("env:PORT")?.toInt() ?? 90
+redis = new Redis.Config {
+  address = "1.2.3.4"
+}
