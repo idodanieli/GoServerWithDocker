@@ -1,0 +1,12 @@
+module AppTemplate
+
+import "RedisTemplate.pkl"
+
+// hostname for the app
+host: String
+
+// port open by the server
+port: Int
+
+// address of the redis-server (does nothing - just for POC)
+redis: RedisTemplate

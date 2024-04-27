@@ -1,6 +1,0 @@
-module AppConfig
-import "Redis.pkl"
-
-host: String
-port: Int
-redis: Redis.Config

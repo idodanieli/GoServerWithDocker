@@ -1,0 +1,4 @@
+module Redis
+
+// address of the redis server
+address: String

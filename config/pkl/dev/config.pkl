@@ -1,8 +1,9 @@
-amends "../AppConfig.pkl"
-import "../Redis.pkl"
+amends "../AppTemplate.pkl"
+
+import "local_redis.pkl"
 
 host = "localhost"
 port = read?("env:PORT")?.toInt() ?? 90
-redis = new Redis.Config {
-  address = "1.2.3.4"
-}
+redis = local_redis
+
+// you can also access local_redis.address like a class
