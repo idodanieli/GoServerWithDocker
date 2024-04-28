@@ -7,3 +7,9 @@ docker build -t go_server .
 ```
 docker run --rm go_server
 ```
+
+3. To build pkl config as json:
+```
+# Write each resource as its own file to a path within `.output/`
+$ pkl eval -m .output/ **/*.pkl -f json
+```
